@@ -12,7 +12,7 @@ const app = express();
 // middlewares
 app.use(
   cors({
-    origin: "https://personal-portfolio-admin.onrender.com",
+    origin: "*",
     credentials: true,
   })
 );
